@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url(/image/background.jpg);
+}
+/* main div */
+.main{
+    border: 2px solid black;
+    width: 80%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    height: 900px;
+    display: flex;
+    background-color:#f49fd9
+}
+/* div 1 */
+.products{    
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px 50px;
+    width: 70%;
+    background-color: #ebe4fc;
+}
+#title{
+    text-align: center;
+    color: rgb(204, 114, 204);
+    text-transform: uppercase;
+}
+button{
+    background-color: white;
+    margin: 30px 10px;
+    border-radius: 30px;
+}
+.foodPic{
+    height: 150px;
+    margin: 10px 10px; 
+    background-color: white;
+}
+
+/* div 2 */
+#details{
+    border: 1px solid black;  
+    margin: 50px 30px;
+    padding: 20px 10px;
+    width: 30%;
+    background-color:#ebe4fc;
+   
+}
